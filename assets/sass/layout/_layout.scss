@@ -1,0 +1,15 @@
+.app-container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  row-gap: 60px;
+  width: 100%;
+  height: auto;
+  padding: var(--pd-20);
+  padding-top: 84px;
+}

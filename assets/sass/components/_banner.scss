@@ -1,0 +1,38 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: var(--gap-20);
+
+  &__image {
+    width: 100%;
+  }
+}
+
+.banner-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  row-gap: var(--gap-20);
+  justify-items: start;
+
+  &__title {
+    font-size: var(--big-font);
+    font-weight: var(--font-extra-bold);
+  }
+
+  &__button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-weight: var(--font-bold);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: var(--soft-red-color);
+    color: var(--off-white-color);
+    transition: var(--tran-0-2);
+  }
+
+  &__button:hover {
+    background-color: var(--very-dark-blue-color);
+  }
+}

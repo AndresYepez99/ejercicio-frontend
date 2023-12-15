@@ -1,0 +1,55 @@
+/* Google Fonts - Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+:root {
+  /*  Colors  HSL*/
+  --soft-orange-color: hsl(35, 77%, 62%);
+  --soft-red-color: hsl(5, 85%, 63%);
+  --off-white-color: hsl(36, 100%, 99%);
+  --grayish-blue-color: hsl(233, 8%, 79%);
+  --dark-grayish-blue-color: hsl(236, 13%, 42%);
+  --very-dark-blue-color: hsl(240, 100%, 5%);
+
+  /* Font and typography */
+  --body-font: 'Inter', sans-serif;
+
+  --big-font: clamp(
+    2.5rem,
+    2.1697087827889785rem + 1.4092124635678018vw,
+    3.438rem
+  );
+  --h1-font: clamp(
+    1.875rem,
+    1.6549232294702683rem + 0.9389741894774796vw,
+    2.5rem
+  );
+  --h2-font: 24px;
+  --h3-font: 22px;
+  --h4-font: 20px;
+  --normal-font: 15px;
+  --small-font: 0.875rem;
+
+  /* Font weight */
+  --font-regular: 400;
+  --font-bold: 700;
+  --font-extra-bold: 800;
+
+  /* Paddings */
+  --pd-20: 20px;
+  --pd-30: 30px;
+  --pd-40: 40px;
+
+  /* z index */
+  --z-fixed: 100;
+  --z-modal: 1000;
+
+  /* Gap */
+  --gap-20: 20px;
+  --gap-30: 30px;
+  --gap-40: 40px;
+
+  /* transitions */
+  --tran-0-2: 0.2s;
+  --tran-0-3: 0.3s;
+  --tran-0-5: 0.5s;
+}

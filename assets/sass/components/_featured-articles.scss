@@ -1,0 +1,34 @@
+.featured-articles {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: var(--pd-20);
+  padding-top: var(--pd-40);
+  padding-bottom: 0;
+  background-color: var(--very-dark-blue-color);
+
+  .section-title {
+    font-size: var(--h1-font);
+    color: var(--soft-orange-color);
+  }
+}
+
+.article {
+  padding: var(--pd-30) 0;
+
+  &__title {
+    font-size: var(--h2-font);
+    line-height: 40px;
+    color: var(--off-white-color);
+  }
+
+  &__description {
+    max-width: 32ch;
+  }
+}
+
+.article--center {
+  border-top:1px solid var(--off-white-color) ;
+  border-bottom:1px solid var(--off-white-color) ;
+}

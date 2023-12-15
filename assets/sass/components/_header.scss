@@ -1,0 +1,40 @@
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  max-width: 1440px;
+  padding: var(--pd-20);
+  margin: 0 auto;
+  background-color: var(--off-white-color);
+  transition: var(--tran-0-2);
+
+  &__logo img {
+    height: var(--h1-font);
+  }
+
+  &__btn-menu-open {
+    width: var(--big-font);
+  }
+
+  &__nav {
+    display: none;
+  }
+
+  .nav__list {
+    display: flex;
+    gap: var(--gap-40);
+  }
+
+  .nav__link {
+    text-transform: capitalize;
+    color: var(--dark-grayish-blue-color);
+    transition: var(--tran-0-2);
+  }
+
+  .nav__link:hover {
+    color: var(--soft-red-color);
+  }
+}
